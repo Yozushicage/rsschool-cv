@@ -25,9 +25,9 @@ welcome.Invoke("World");
 ## Education
 * University: Far Eastern Federal University, Civil Engineering major
 * Courses
-    + [https://itvdn.com/ru/video/procedural-programming-csharp] (C# Starting)
-    + [https://itvdn.com/ru/video/csharp-essential] (C# Essential)
-    + [https://itvdn.com/ru/video/csharp-for-professional-renewed] (C# Advanced)
+    + [C# Starting] (https://itvdn.com/ru/video/procedural-programming-csharp)
+    + [C# Essential] (https://itvdn.com/ru/video/csharp-essential)
+    + [C# Advanced] (https://itvdn.com/ru/video/csharp-for-professional-renewed)
 
 ## Languages
 * Russian
