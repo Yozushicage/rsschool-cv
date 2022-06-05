@@ -1,1 +1,1 @@
-https://yozushicage.github.io/rsschool-cv/cv
+https://yozushicage.github.io/rsschool-cv/
