@@ -1,1 +1,1 @@
-# rsschool-cv
+https://yozushicage.github.io/rsschool-cv/
