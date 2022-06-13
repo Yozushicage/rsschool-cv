@@ -147,20 +147,20 @@
             <h2 class="secondary-header" id="code-example">Code</h2>
             <pre class="code-example__text">
                 <code>
-static public class EnumExtensions
+<span class="code-example--blue">static public class</span> <span class="code-example--green">EnumExtensions</span>
 {
-    public static TAttribute GetAttribute&lt;TAttribute&gt;(this Enum enumValue) where TAttribute: Attribute
+    <span class="code-example--blue">public static</span> <span class="code-example--light-green">TAttribute</span> <span class="code-example--yellow">GetAttribute</span>&lt;<span class="code-example--light-green">TAttribute</span>&gt;(<span class="code-example--blue">this</span> <span class="code-example--green">Enum</span> <span class="code-example--light-blue">enumValue</span>) <span class="code-example--blue">where</span> <span class="code-example--light-green">TAttribute</span>: <span class="code-example--green">Attribute</span>
     {
-        return enumValue.GetType()
-                        .GetMember(enumValue.ToString())
-                        .First()
-                        .GetCustomAttribute&lt;TAttribute&gt;();
+        <span class="code-example--pink">return</span> <span class="code-example--light-blue">enumValue</span>.<span class="code-example--yellow">GetType</span>()
+                        .<span class="code-example--yellow">GetMember</span>(<span class="code-example--light-blue">enumValue</span>.<span class="code-example--yellow">ToString</span>())
+                        .<span class="code-example--yellow">First</span>()
+                        .<span class="code-example--yellow">GetCustomAttribute</span>&lt;<span class="code-example--light-green">TAttribute</span>&gt;();
     }
 
-    public static void DoSomthing(string text = "World")
+    <span class="code-example--blue">public static void</span> <span class="code-example--yellow">DoSomthing</span>(<span class="code-example--blue">string</span> <span class="code-example--light-blue">text</span> = <span class="code-example--brawn">"World"</span>)
     {
-        Action&lt;string&gt; welcome = (x) =&gt; { Console.WriteLine($"Hello {x}!"); };
-        welcome.Invoke(text);
+        <span class="code-example--purple">Action</span>&lt;<span class="code-example--blue">string</span>&gt; <span class="code-example--light-blue">welcome</span> = (<span class="code-example--light-blue">x</span>) =&gt; { <span class="code-example--green">Console</span>.<span class="code-example--yellow">WriteLine</span>(<span class="code-example--brawn">$"Hello</span> {<span class="code-example--light-blue">x</span>}<span class="code-example--brawn">!"</span>); };
+        <span class="code-example--light-blue">welcome</span>.<span class="code-example--yellow">Invoke</span>(<span class="code-example--light-blue">text</span>);
     }
 }               </code>
             </pre>
