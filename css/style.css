@@ -5,6 +5,15 @@
     --contacts-color: #EFE3DE;
     --card-hover-color: #f9d0b3;
     --shadow-color: #b4b4b4;
+    --code-background-color: #1E1E1E;
+    --code-example-blue: #569CD6;
+    --code-example-green: #4EC9B0;
+    --code-example-light-green: #B8D7A3;
+    --code-example-yellow: #DCDCAA;
+    --code-example-light-blue: #7CC0EA;
+    --code-example-pink: #D8A0DF;
+    --code-example-brawn: #BC907B;
+    --code-example-purple: #6568CD;
 }
 
 html {
@@ -203,7 +212,40 @@ html {
 .code-example__text {
     padding: 30px 30px;
     border-radius: 10px;
-    background-color: var(--contacts-color);
+    color: white;
+    background-color: var(--code-background-color);
+}
+
+.code-example--blue{
+    color: var(--code-example-blue);
+}
+
+.code-example--green{
+    color: var(--code-example-green);
+}
+
+.code-example--light-green{
+    color: var(--code-example-light-green);
+}
+
+.code-example--yellow{
+    color: var(--code-example-yellow);
+}
+
+.code-example--brawn{
+    color: var(--code-example-brawn);
+}
+
+.code-example--purple{
+    color: var(--code-example-purple);
+}
+
+.code-example--light-blue{
+    color: var(--code-example-light-blue);
+}
+
+.code-example--pink{
+    color: var(--code-example-pink);
 }
 
 .my-projects {
